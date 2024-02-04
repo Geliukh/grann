@@ -5,4 +5,10 @@
   |============================
 */
 @import url('./reset.css');
+@import url('./common.css');
+@import url('./index.css');
+@import url('./delivery-page.css');
+@import url('./catalog.css');
+@import url('./about-me-page.css');
+
 
