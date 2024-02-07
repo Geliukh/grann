@@ -15,12 +15,12 @@
     font-weight: 900;
     font-size: 100px;
     color: #705a66;
-    /* justify-content: center; */
+    text-align: center;
 }
 
-/* .why-about-me-container {
-    display: flex;
-} */
+ .why-about-me-container {
+    flex-direction: column;
+} 
 
 .why-picture {
     width: 605px;
@@ -32,6 +32,7 @@
 font-weight: 300;
 font-size: 24px;
 color: #705a66;
+margin-bottom: 24px;
 }
 
 .why-text {
@@ -39,13 +40,13 @@ color: #705a66;
 font-weight: 300;
 font-size: 18px;
 color: #705a66;
+padding-bottom: 32px;
 }
 
 .why-list {
-    /* display: flex; */
     flex-direction: column;
 }
 
-.why-iteam {
-    flex-direction: column;
-}
+
+
+
