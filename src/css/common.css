@@ -1,56 +1,152 @@
 /* common css */
-:root{
-    --pale-yellow: #F5EEE0;
-    --white: #ffffff;
-    --text-color: #705A66;
+:root {
+  --pale-yellow: #f5eee0;
+  --white: #ffffff;
+  --text-color: #705a66;
+  /* мій код працює тільки так  Давид*/
+  --font-family: 'Montserrat', sans-serif;
+  --second-family: 'Jeff Script', sans-serif;
+  --third-family: 'Moniqa', sans-serif;
+  --font3: 'Abel', sans-serif;
+  --title-color: #252525;
 }
 
-.container{
-    width: 1240px;
-    outline: red solid 2px;
-    margin: 0px auto;
-    display: flex;
+.container {
+  width: 1240px;
+  outline: red solid 2px;
+  margin: 0px auto;
+  /* display: flex; */
 }
 
 /* Header */
 
-.head{
-    /* background-color: var(--pale-yellow); */
-    border-bottom: white solid 1px;
-    padding: 24px 0px;
+.head {
+  /* background-color: var(--pale-yellow); */
+  border-bottom: white solid 1px;
+  padding: 24px 0px;
 }
 
-.head-container, .head-list{
+.head-container,
+.head-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.head-link {
+  font-family: 'Montserrat';
+  font-size: 16px;
+  color: var(--text-color);
+}
+
+.head-item:first-of-type {
+  margin-right: 118px;
+}
+
+.head-item:nth-last-child(2) {
+  margin-left: 103px;
+  margin-right: 76px;
+}
+
+.head-logo {
+  width: 114px;
+  height: 91px;
+  margin: 0px 170px 0px 275px;
+}
+
+.head-buys {
+  width: 30px;
+  height: 30px;
+  background-image: url(../img/header-shoping-cart.webp);
+  background-color: inherit;
+  border: none;
+}
+
+/* hero мій код працює тільки так */
+
+.hero{
+    padding-bottom: 23px;
+}
+
+.hero:last-child{
+    justify-content: flex-end;
+}
+
+
+.hero-title1 {
+  font-family: var(--font-family);
+  font-weight: 300;
+  font-size: 14px;
+  color: var(--title-color);
+}
+
+.hero-title2 {
+  font-family: var(--font-family);
+  font-weight: 300;
+  font-size: 14px;
+  color: var(--title-color);
+}
+
+/* .hero-img{
+    float: left;
+} */
+
+.header-subtitle {
+  font-family: var(--font-family);
+  font-weight: 300;
+  font-size: 42px;
+  color: var(--title-color);
+}
+
+.hero-list{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    gap: 32px;
 }
 
-.head-link{
-    font-family: 'Montserrat';
-    font-size: 16px;
+.hero-item {
+
+  font-family: var(--font-family);
+  font-weight: 300;
+  font-size: 18px;
+  color: var(--title-color);
+}
+
+.hero-button {
+  border-radius: 10px;
+  width: 288px;
+  height: 60px;
+  background: var(--pale-yellow);
+  font-family: var(--font-family);
+  font-weight: 300;
+  font-size: 18px;
+  color: var(--text-color);
+  border: none;
+  flex-basis: calc((100% / 2) - 32px);
+}
+
+.hero-button::after{
+    background-image: url(../img/arrow.webp);
+    
+}
+
+.hero-text{
+    font-family: var(--font-family);
+    font-weight: 300;
+    font-size: 24px;
     color: var(--text-color);
 }
 
-.head-item:first-of-type{
-    margin-right: 118px;
-}
-
-.head-item:nth-last-child(2){
-    margin-left: 103px;
-    margin-right: 76px;
-}
-
-.head-logo{
-    width: 114px;
-    height: 91px;
-    margin: 0px 170px 0px 275px;
-}
-
-.head-buys{
-    width: 30px;
-    height: 30px;
-    background-image: url(../img/header-shoping-cart.webp);
-    background-color: inherit;
-    border: none;
+.hero-delivery {
+  border-radius: 10px;
+  width: 287px;
+  height: 67px;
+  background: var(--text-color);
+  font-family: var(--font-family);
+  font-weight: 300;
+  font-size: 24px;
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--pale-yellow);
+  border: none;
+ 
 }
