@@ -1,1 +1,45 @@
 /* delivery page css */
+
+:root {
+  --font-family: 'Montserrat', sans-serif;
+  --second-family: 'Jeff Script', sans-serif;
+  --third-family: 'Moniqa', sans-serif;
+  --font3: 'Abel', sans-serif;
+  --title-color: #252525;
+  --title-color2: #705a66;
+}
+
+.hero-title1 {
+  font-family: var(--font-family);
+  font-weight: 300;
+  font-size: 14px;
+  color: var(--title-color);
+}
+
+.hero-title2 {
+  font-family: var(--font-family);
+  font-weight: 300;
+  font-size: 14px;
+  color: var(--title-color2);
+}
+
+.header-subtitle {
+  font-family: var(--font-family);
+  font-weight: 300;
+  font-size: 42px;
+  color: var(--title-color2);
+}
+
+.hero-item {
+  font-family: var(--font-family);
+  font-weight: 300;
+  font-size: 18px;
+  color: #705a66;
+}
+
+.hero-button {
+  border-radius: 10px;
+  width: 288px;
+  height: 60px;
+  background: #f5eee0;
+}
