@@ -62,16 +62,15 @@
   border: none;
 }
 
-/* hero мій код працює тільки так */
+/* hero мій код працює, тільки так */
 
-.hero{
-    padding-bottom: 23px;
+.hero {
+  padding-bottom: 23px;
 }
 
-.hero:last-child{
-    justify-content: flex-end;
-}
-
+/* .hero:last-child {
+  justify-content: flex-end;
+} */
 
 .hero-title1 {
   font-family: var(--font-family);
@@ -98,13 +97,38 @@
   color: var(--title-color);
 }
 
-.hero-list{
-    display: flex;
-    gap: 32px;
+.hero-img{
+  margin-bottom: 32px;
+}
+
+.hero-list {
+  display: flex;
+  gap: 32px;
+}
+
+.selection-of-cakes{
+  display: flex;
+  row-gap: 30px;
+}
+
+.selection-of-cakes:first-child::before{
+ contain: "";
+ background-image: url(../img/bttn-left.webp);
+ background-repeat: no-repeat;
+}
+
+.selection-of-cakes:last-child::after{
+  contain: "";
+  background-image: url(../img/bttn-right.webp);
+  background-repeat: no-repeat;
+}
+
+.selection-hero-img{
+  width: 75px;
+height: 75px;
 }
 
 .hero-item {
-
   font-family: var(--font-family);
   font-weight: 300;
   font-size: 18px;
@@ -124,16 +148,16 @@
   flex-basis: calc((100% / 2) - 32px);
 }
 
-.hero-button::after{
-    background-image: url(../img/arrow.webp);
-    
+.hero-button::after {
+  content: "";
+  background-image: url(../img/arrow.webp);
 }
 
-.hero-text{
-    font-family: var(--font-family);
-    font-weight: 300;
-    font-size: 24px;
-    color: var(--text-color);
+.hero-text {
+  font-family: var(--font-family);
+  font-weight: 300;
+  font-size: 24px;
+  color: var(--text-color);
 }
 
 .hero-delivery {
@@ -148,5 +172,40 @@
   text-align: center;
   color: var(--pale-yellow);
   border: none;
- 
+}
+
+/* information */
+
+.information {
+  padding-top: 64px;
+}
+
+.information-list {
+  display: flex;
+  font-family: var(--font-family);
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 130%;
+  color: var(--text-color);
+  gap: 30px;
+  flex-direction: column;
+}
+
+.description {
+  margin-bottom: 16px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.nformation-item {
+  display: block;
+}
+
+.information-stick {
+  border-radius: 4px;
+  width: 76px;
+  height: 4px;
+  background: var(--text-color);
+  margin-bottom: 40px;
 }
