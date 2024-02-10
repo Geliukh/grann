@@ -160,10 +160,6 @@
   flex-basis: calc((100% / 2) - 32px);
 }
 
-.hero-button::after {
-  content: '';
-  background-image: url(../img/arrow.webp);
-}
 
 .hero-text {
   font-family: var(--font-family);
