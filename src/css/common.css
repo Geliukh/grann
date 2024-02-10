@@ -12,6 +12,17 @@
   --text-color-v2: #f5f7f8;
 }
 
+@font-face {
+  font-family: "Moniqa Black Display";
+  src: url("https://db.onlinewebfonts.com/t/864309e32eb06a52fd91c0d3e081e0db.eot");
+  src: url("https://db.onlinewebfonts.com/t/864309e32eb06a52fd91c0d3e081e0db.eot?#iefix")format("embedded-opentype"),
+  url("https://db.onlinewebfonts.com/t/864309e32eb06a52fd91c0d3e081e0db.woff2")format("woff2"),
+  url("https://db.onlinewebfonts.com/t/864309e32eb06a52fd91c0d3e081e0db.woff")format("woff"),
+  url("https://db.onlinewebfonts.com/t/864309e32eb06a52fd91c0d3e081e0db.ttf")format("truetype"),
+  url("https://db.onlinewebfonts.com/t/864309e32eb06a52fd91c0d3e081e0db.svg#Moniqa Black Display")format("svg");
+}
+
+
 .container {
   width: 1240px;
   outline: red solid 2px;
@@ -345,4 +356,50 @@
 
 .footer-list .footer-item:nth-child(2){
   margin: 24px 0px;
+}
+
+/* INSTAGRAM */
+
+.instagram{
+  padding-top: 89px;
+  padding-bottom: 120px;
+  background-image: url(../img/instagram-background.webp);
+  background-repeat: no-repeat;
+  background-position: 330px 1117px;
+}
+
+.instagram-button-container{
+  display: flex;
+  justify-content: center;
+}
+
+.instagram-list{
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-top: 64px;
+  margin-bottom: 62px;
+}
+
+.instagram-item{
+  flex-basis: calc((100% - 2 * 30px) / 3);
+  width: 393px;
+}
+
+.instagram-title{
+  text-align: center;
+  color: var(--text-color);
+  font-family: 'Moniqa Black Display';
+  font-weight: 900;
+  font-size: 100px;
+}
+
+.instagram-button{
+  background-color: var(--pale-yellow);
+  padding: 19px 154px 19px 152px;
+  border-radius: 10px;
+  color: var(--text-color);
+  font-family: 'Montserrat';
+  font-weight: 300;
+  font-size: 24px;
 }
