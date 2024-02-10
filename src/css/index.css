@@ -109,10 +109,12 @@
   box-sizing: border-box;
 }
 
-.faq-iteam {
-  justify-content: center;
+/* .faq-iteam {
+  display: flex;
+  justify-content: space-between;
   padding-left: 206px;
-}
+  outline: solid blue;
+} */
 
 .faq-container {
   flex-direction: column;
@@ -133,14 +135,14 @@
   display: inline-flex;
 }
 
-.faq-subtitle:first-child:after {
+/* .faq-subtitle:first-child:after {
   content: '';
   display: block;
   width: 24px;
   height: 13px;
   background-image: url(../img/arrow.webp);
   margin-left: 201px;
-}
+} */
 
 .faq-text {
   font-family: var(--font-family);
