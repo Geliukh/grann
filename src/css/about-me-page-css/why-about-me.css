@@ -1,5 +1,3 @@
-/* about me page css */
-
 @font-face {
     font-family: "Moniqa Black Display";
     src: url("https://db.onlinewebfonts.com/t/864309e32eb06a52fd91c0d3e081e0db.eot");
@@ -46,28 +44,3 @@ padding-bottom: 32px;
 .why-list {
     flex-direction: column;
 }
-
-.about-name {
-    margin-right: auto;
-    margin-left: auto;
-  }
-  
-  .about-subtitle {
-    font-family: "Montserrat";
-    font-weight: 300;
-    font-size: 24px;
-    text-transform: uppercase;
-    color: #705a66;
-  }
-  
-  .about-text {
-    font-family: "Montserrat";
-    font-weight: 300;
-    font-size: 16px;
-    color: #705a66;
-  }
-  
-  /* .about-list {
-      flex-direction: row;
-  } */
-  

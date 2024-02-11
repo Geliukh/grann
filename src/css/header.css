@@ -1,0 +1,41 @@
+.head {
+    /* background-color: var(--pale-yellow); */
+    border-bottom: white solid 1px;
+    padding: 24px 0px;
+  }
+  
+  .head-container,
+  .head-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .head-link {
+    font-family: 'Montserrat';
+    font-size: 16px;
+    color: var(--text-color);
+  }
+  
+  .head-item:first-of-type {
+    margin-right: 118px;
+  }
+  
+  .head-item:nth-last-child(2) {
+    margin-left: 103px;
+    margin-right: 76px;
+  }
+  
+  .head-logo {
+    width: 114px;
+    height: 91px;
+    margin: 0px 170px 0px 275px;
+  }
+  
+  .head-buys {
+    width: 30px;
+    height: 30px;
+    background-image: url(../img/header-shoping-cart.webp);
+    background-color: inherit;
+    border: none;
+  }

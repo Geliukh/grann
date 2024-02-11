@@ -1,0 +1,33 @@
+.information {
+    padding-top: 64px;
+  }
+  
+  .information-list {
+    display: flex;
+    font-family: var(--font-family);
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 130%;
+    color: var(--text-color);
+    gap: 30px;
+    flex-direction: column;
+  }
+  
+  .description {
+    margin-bottom: 16px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+  
+  .nformation-item {
+    display: block;
+  }
+  
+  .information-stick {
+    border-radius: 4px;
+    width: 76px;
+    height: 4px;
+    background: var(--text-color);
+    margin-bottom: 40px;
+  }

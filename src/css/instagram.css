@@ -1,0 +1,44 @@
+
+.instagram{
+    padding-top: 89px;
+    padding-bottom: 120px;
+    background-image: url(../img/instagram-background.webp);
+    background-repeat: no-repeat;
+    background-position: 330px 1117px;
+  }
+  
+  .instagram-button-container{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .instagram-list{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 64px;
+    margin-bottom: 62px;
+  }
+  
+  .instagram-item{
+    flex-basis: calc((100% - 2 * 30px) / 3);
+    width: 393px;
+  }
+  
+  .instagram-title{
+    text-align: center;
+    color: var(--text-color);
+    font-family: 'Moniqa Black Display';
+    font-weight: 900;
+    font-size: 100px;
+  }
+  
+  .instagram-button{
+    background-color: var(--pale-yellow);
+    padding: 19px 154px 19px 152px;
+    border-radius: 10px;
+    color: var(--text-color);
+    font-family: 'Montserrat';
+    font-weight: 300;
+    font-size: 24px;
+  }
