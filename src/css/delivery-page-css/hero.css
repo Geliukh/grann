@@ -1,0 +1,106 @@
+.hero {
+    padding-bottom: 23px;
+  }
+  
+  /* .hero:last-child {
+    justify-content: flex-end;
+  } */
+  
+  .hero-title1 {
+    font-family: var(--font-family);
+    font-weight: 300;
+    font-size: 14px;
+    color: var(--title-color);
+  }
+  
+  .hero-title2 {
+    font-family: var(--font-family);
+    font-weight: 300;
+    font-size: 14px;
+    color: var(--title-color);
+  }
+  
+  /* .hero-img{
+      float: left;
+  } */
+  
+  .header-subtitle {
+    font-family: var(--font-family);
+    font-weight: 300;
+    font-size: 42px;
+    color: var(--title-color);
+  }
+  
+  .hero-img {
+    margin-bottom: 32px;
+  }
+  
+  .hero-list {
+    display: flex;
+    gap: 32px;
+  }
+  
+  .selection-of-cakes {
+    display: flex;
+    row-gap: 30px;
+  }
+  
+  .selection-of-cakes:first-child::before {
+    contain: '';
+    background-image: url(../img/bttn-left.webp);
+    background-repeat: no-repeat;
+  }
+  
+  .selection-of-cakes:last-child::after {
+    contain: '';
+    background-image: url(../img/bttn-right.webp);
+    background-repeat: no-repeat;
+  }
+  
+  .selection-hero-img {
+    width: 75px;
+    height: 75px;
+  }
+  
+  .hero-item {
+    font-family: var(--font-family);
+    font-weight: 300;
+    font-size: 18px;
+    color: var(--title-color);
+  }
+  
+  .hero-button {
+    border-radius: 10px;
+    width: 288px;
+    height: 60px;
+    background: var(--pale-yellow);
+    font-family: var(--font-family);
+    font-weight: 300;
+    font-size: 18px;
+    color: var(--text-color);
+    border: none;
+    flex-basis: calc((100% / 2) - 32px);
+  }
+  
+  
+  .hero-text {
+    font-family: var(--font-family);
+    font-weight: 300;
+    font-size: 24px;
+    color: var(--text-color);
+  }
+  
+  .hero-delivery {
+    border-radius: 10px;
+    width: 287px;
+    height: 67px;
+    background: var(--text-color);
+    font-family: var(--font-family);
+    font-weight: 300;
+    font-size: 24px;
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--pale-yellow);
+    border: none;
+  }
+  
