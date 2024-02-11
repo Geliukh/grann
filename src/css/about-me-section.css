@@ -1,23 +1,27 @@
 .about-name {
-    margin-right: auto;
-    margin-left: auto;
-  }
-  
-  .about-subtitle {
-    font-family: "Montserrat";
-    font-weight: 300;
-    font-size: 24px;
-    text-transform: uppercase;
-    color: #705a66;
-  }
-  
-  .about-text {
-    font-family: "Montserrat";
-    font-weight: 300;
-    font-size: 16px;
-    color: #705a66;
-  }
-  
-  /* .about-list {
-      flex-direction: row;
-  } */
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.about-subtitle {
+  font-family: "Montserrat";
+  font-weight: 300;
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #705a66;
+}
+
+.about-subtitle:nth-child(2) {
+flex-direction: column;
+}
+
+.about-text {
+  font-family: "Montserrat";
+  font-weight: 300;
+  font-size: 16px;
+  color: #705a66;
+}
+
+.about-list {
+display: flex;
+}
