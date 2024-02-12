@@ -23,6 +23,7 @@
 .why-picture {
     width: 605px;
     height: 631px;
+    margin-right: 136px;
 }
 
 .why-subtitle {
@@ -42,5 +43,16 @@ padding-bottom: 32px;
 }
 
 .why-list {
+    display: flex;
+}
+
+.why-iteam:nth-child(2) {
     flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 499px;
+}
+
+.why-iteam {
+    justify-content: center;
+    display: flex;
 }
