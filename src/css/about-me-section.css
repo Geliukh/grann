@@ -1,6 +1,12 @@
 .about-name {
-  margin-right: auto;
-  margin-left: auto;
+  /* padding-top: 78px; */
+  margin-bottom: 40px;
+  margin-left: 30px;
+}
+
+.about {
+  margin-top: 120px;
+  margin-bottom: 120px;
 }
 
 .about-subtitle {
@@ -9,19 +15,44 @@
   font-size: 24px;
   text-transform: uppercase;
   color: #705a66;
-}
-
-.about-subtitle:nth-child(2) {
-flex-direction: column;
+  margin-bottom: 8px;
+  margin-left: 136px;
 }
 
 .about-text {
   font-family: "Montserrat";
   font-weight: 300;
-  font-size: 16px;
+  font-size: 18px;
   color: #705a66;
+  margin-left: 136px;
+  min-width: 488px;
+}
+
+.about-subbtile {
+  font-family: "Montserrat";
+  font-weight: 300;
+  font-size: 18px;
+  color: #705a66;
+  margin-bottom: 28px;
+  margin-top: 56px;
+  margin-left: 136px;
+}
+
+.about-special-text {
+  margin-top: 28px;
+  min-width: 488px;
 }
 
 .about-list {
 display: flex;
+}
+
+
+
+.about-iteam:nth-child(2) {
+  max-width: 499px;
+  margin-top: 40px;
+  /* justify-content: center;
+  display: flex; */
+  padding-bottom: auto;
 }
