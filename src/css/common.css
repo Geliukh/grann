@@ -29,6 +29,13 @@
   background-repeat: no-repeat;
 }
 
+.why-and-delivery {
+  background-image: url(../img/why-and-delivery-bacround.webp);
+  background-size: 1641.5px 1357px;
+  background-position: 0px 65px;
+  background-repeat: no-repeat;
+}
+
 
 .container {
   width: 1240px;
