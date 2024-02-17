@@ -30,7 +30,7 @@
 .head-and-hero {
   background-image: url(../img/head-and-hero-background.webp);
   background-size: 1641px 1098px;
-  background-position: 0px -16px;
+  background-position: center -16px;
   background-repeat: no-repeat;
 }
 
@@ -46,4 +46,8 @@
   outline: red solid 2px;
   margin: 0px auto;
   /* display: flex; */
+}
+
+html{
+  background-color: var(--text-color-v2);
 }
