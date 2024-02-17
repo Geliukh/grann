@@ -18,6 +18,10 @@
   margin-top: 24px;
 }
 
+.hero-catalog {
+  margin-bottom: 120px;
+}
+
 .hero-span {
   color: #705a66;
 }
@@ -118,7 +122,7 @@
     display: block;
     width: 35px;
     height: 35px;
-    background-image: url(../img/bttn-right.webp);
+    background-image: url(../../img/bttn-right.webp);
     margin-left: 32px;
 }
 
@@ -127,7 +131,7 @@
     display: block;
     width: 35px;
     height: 35px;
-    background-image: url(../img/bttn-left.webp);
+    background-image: url(../../img/bttn-left.webp);
     margin-right: 32px;
 }
 
