@@ -7,6 +7,10 @@
   text-align: center;
 }
 
+.faq {
+  margin-top: 120px;
+}
+
 .faq-list {
   display: flex;
   flex-direction: column;
