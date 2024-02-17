@@ -1,0 +1,83 @@
+:root {
+    --font-family: "Montserrat", sans-serif;
+    --second-family: "Jeff Script", sans-serif;
+    --third-family: "Moniqa", sans-serif;
+    --font3: "Abel", sans-serif;
+}
+
+.wishes{
+    background-image: url(../img/wishes-img.webp);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.wishes-container{
+    gap: 24px;
+    display: flex;
+}
+
+.wishes-container-title{
+font-family: var(--second-family);
+font-weight: 400;
+font-size: 54px;
+color: var(--text-color-v2);
+}
+
+.wishes-container-text{
+    font-family: var(--font-family);
+font-weight: 300;
+font-size: 18px;
+line-height: 130%;
+color: var(--text-color-v2);
+}
+
+.wishes-container-name{
+    font-family: var(--font-family);
+    font-weight: 300;
+    font-size: 18px;
+    color: var(--text-color);
+    border-radius: 10px;
+width: 499px;
+height: 60px;
+background-color: var(--text-color-v2);
+border-style: none;
+}
+
+.wishes-container-tel{
+    font-family: var(--font-family);
+    font-weight: 300;
+    font-size: 18px;
+    color: var(--text-color);
+    border-radius: 10px;
+width: 499px;
+height: 60px;
+background: var(--text-color-v2);
+border-style: none;
+}
+
+.wishes-container-describe{
+    font-family: var(--font-family);
+font-weight: 300;
+font-size: 18px;
+color: var(--text-color);
+border-radius: 10px;
+width: 499px;
+height: 180px;
+background: var(--text-color-v2);
+border-style: none;
+resize: none;
+}
+
+.wishes-container-button{
+    font-family: var(--font-family);
+font-weight: 300;
+font-size: 24px;
+text-transform: uppercase;
+text-align: center;
+color: var(--text-color);
+border-radius: 10px;
+width: 499px;
+height: 67px;
+background: var(--pale-yellow);
+border-style: none;
+}
