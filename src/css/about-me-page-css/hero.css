@@ -1,0 +1,62 @@
+ .hero-title {
+     font-family: var(--third-family);
+     font-weight: 600;
+     font-size: 226px;
+     color: #705a66;
+     display: block;
+     align-items: center;
+     margin-left: auto;
+     padding-top: 10px;
+ }
+
+ .hero-text {
+     font-family: var(--font-family);
+     font-weight: 300;
+     font-size: 24px;
+     letter-spacing: 0.02em;
+     text-transform: uppercase;
+     text-align: center;
+     color: #705a66;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+ }
+
+ .hero-button {
+     font-family: var(--font-family);
+     background-color: var(--pale-yellow);
+     font-weight: 300;
+     font-size: 24px;
+     text-transform: uppercase;
+     color: #705a66;
+     text-align: center;
+     background-color: var(--pale-yellow);
+     width: 300px;
+     height: 67px;
+     border-radius: 15px;
+     padding: 19px 0px;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 218px;
+ }
+
+ .hero-list {
+     display: flex;
+     align-items: flex-end;
+     flex-direction: column;
+     margin-left: auto;
+     width: 24px;
+ }
+
+ .hero-facebook {
+     margin-top: 20px;
+     margin-bottom: 20px;
+     margin-right: 4px;
+ }
+
+ .container-cake {
+     background-image: url(../../img/pact13.webp);
+     background-repeat: no-repeat;
+     background-position: left bottom;
+ }
