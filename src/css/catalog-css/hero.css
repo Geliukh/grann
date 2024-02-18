@@ -18,6 +18,10 @@
   margin-top: 24px;
 }
 
+.hero-button-list {
+  gap: 32px;
+}
+
 .hero-catalog {
   margin-bottom: 120px;
 }

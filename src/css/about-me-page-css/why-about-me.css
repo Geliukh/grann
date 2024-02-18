@@ -54,6 +54,7 @@ padding-bottom: 32px;
     flex-direction: column;
     flex-wrap: wrap;
     max-width: 499px;
+    margin-top: 100px;
 }
 
 .why-iteam {
