@@ -67,21 +67,18 @@ margin-top: 56px;
   gap: 30px;
 }
 
-.selection-of-cakes:first-child {
-  background-image: url(../img/bttn-left.webp);
-  background-repeat: no-repeat;
-}
-
-.cakes-hero-button {
+.cakes-of-hero-button {
   background-color: var(--text-color);
   border-radius: 100%;
   height: 35px;
   width: 35px;
 }
 
-.selection-of-cakes:last-child {
-  background-image: url(../img/bttn-right.webp);
-  background-repeat: no-repeat;
+.cakes-hero-button  {
+  background-color: var(--text-color);
+  border-radius: 100%;
+  height: 35px;
+  width: 35px;
 }
 
 .selection-hero-img {
