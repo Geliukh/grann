@@ -1,5 +1,10 @@
 .pict {
     background-image: url(../../img/5pict.webp);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-position: center;
+    margin-top: 120px;
+    margin-bottom: 120px;
 }
 
 .pict-container {
