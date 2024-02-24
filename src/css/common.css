@@ -41,6 +41,13 @@
   background-repeat: no-repeat;
 }
 
+.why-pict-delivery {
+  background-image: url(../img/fon-delivery.webp);
+  background-size: 1440px 2242px;
+  background-position: center -16px;
+  background-repeat: no-repeat;
+}
+
 .container {
   width: 1240px;
   outline: red solid 2px;
