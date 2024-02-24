@@ -1,10 +1,9 @@
  .hero-title {
-     font-family: var(--third-family);
+     font-family: 'Moniqa Black Display';
      font-weight: 600;
      font-size: 226px;
      color: #705a66;
      display: block;
-     align-items: center;
      margin-left: auto;
      padding-top: 10px;
  }
