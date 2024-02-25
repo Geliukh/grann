@@ -1,16 +1,109 @@
 .besteler {
-  margin-bottom: 120px;
+  display: flex;
+}
+
+
+.besteler-container{
+  margin-right: 32px;
+}
+
+.arrow-next{
+  padding: 10px 19px 9px 13px;
+  border-radius: 15px;
+  outline: var(--text-color) 1px solid;
+  margin-bottom: 32px;
+  background-color: inherit;
+}
+
+.arrow-prev{
+  padding: 10px 19px 9px 13px;
+  border-radius: 15px;
+  outline: var(--text-color) 1px solid;
+  margin-bottom: 32px;
+  margin-right: 32px ;
+  background-color: inherit;
+  margin-left: auto;
+}
+
+.bestcelar-arrow-container{
+  padding-left: 1055px;
+}
+
+.carousel{
+  display: flex;
+  flex-direction: column;
+}
+
+.arrow-prev:hover, .arrow-next:hover{
+  background-color: var(--pale-yellow);
 }
 
 .besteler-title {
   font-family: 'Moniqa Black Display';
   font-weight: 900;
   font-size: 100px;
-  color: #705a66;
+  color: var(--text-color);
   text-align: center;
 }
 
 .besteler-list {
     display: flex;
-    gap: 32px;
+    column-gap: 32px;
+}
+
+.besteler-list .besteler-image{
+  width: 393px;
+  height: 393px;
+}
+
+.besteler-list .bestcelar-item{
+  width: 393px;
+  height: 503px;
+}
+
+.bestcelar-element-container{
+  align-self: center;
+  padding-bottom: 12px;
+}
+
+.bestcelar-text{
+  margin-top: 10px;
+  font-family: 'Montserrat';
+  font-size: 18px;
+  font-weight: lighter;
+}
+
+.besteler-list .bestcelar-text-title{
+  width: 288px;
+}
+
+.bestcelar-text-title{
+  color: var(--text-color);
+  font-family: 'Montserrat';
+  font-size: 24px;
+  font-weight: lighter;
+}
+
+.bestcelar-text-container-container{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.bestcelar-element-container .bestcelar-text-container-container{
+  display: block;
+}
+
+.bestcelar-button{
+  background-color: var(--pale-yellow);
+  color: var(--text-color);
+  font-family: 'Montserrat', sans-serif;
+  font-weight: lighter;
+  font-size: 24px;
+  padding: 19px 80px;
+  border-radius: 15px;
+  margin-top: 88px;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
 }
