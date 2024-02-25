@@ -1,0 +1,16 @@
+.besteler {
+  margin-bottom: 120px;
+}
+
+.besteler-title {
+  font-family: 'Moniqa Black Display';
+  font-weight: 900;
+  font-size: 100px;
+  color: #705a66;
+  text-align: center;
+}
+
+.besteler-list {
+    display: flex;
+    gap: 32px;
+}
