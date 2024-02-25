@@ -1,8 +1,9 @@
 .delivery-title {
-    font-family: var(--third-family);
+    font-family: 'Moniqa Black Display';
     font-weight: 900;
     font-size: 100px;
     color: #705a66;
+    text-align: center;
 }
 
 .delivery-text {

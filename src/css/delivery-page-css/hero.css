@@ -1,106 +1,175 @@
 .hero {
-    padding-bottom: 23px;
-  }
-  
-  /* .hero:last-child {
+  padding-bottom: 23px;
+}
+
+.delivery-container {
+  display: flex;
+}
+
+/* .hero:last-child {
     justify-content: flex-end;
   } */
-  
-  .hero-title1 {
-    font-family: var(--font-family);
-    font-weight: 300;
-    font-size: 14px;
-    color: var(--title-color);
-  }
-  
-  .hero-title2 {
-    font-family: var(--font-family);
-    font-weight: 300;
-    font-size: 14px;
-    color: var(--title-color);
-  }
-  
-  /* .hero-img{
+
+
+
+.hero-title1 {
+  font-family: var(--font-family);
+  font-weight: 300;
+  font-size: 14px;
+  color: var(--title-color);
+}
+
+.hero-title2 {
+  font-family: var(--font-family);
+  font-weight: 300;
+  font-size: 14px;
+  color: var(--title-color);
+}
+
+/* .hero-img{
       float: left;
   } */
-  
-  .header-subtitle {
-    font-family: var(--font-family);
-    font-weight: 300;
-    font-size: 42px;
-    color: var(--title-color);
-  }
-  
-  .hero-img {
-    margin-bottom: 32px;
-  }
-  
-  .hero-list {
-    display: flex;
-    gap: 32px;
-  }
-  
-  .selection-of-cakes {
-    display: flex;
-    row-gap: 30px;
-  }
-  
-  .selection-of-cakes:first-child::before {
-    contain: '';
-    background-image: url(../img/bttn-left.webp);
-    background-repeat: no-repeat;
-  }
-  
-  .selection-of-cakes:last-child::after {
-    contain: '';
-    background-image: url(../img/bttn-right.webp);
-    background-repeat: no-repeat;
-  }
-  
-  .selection-hero-img {
-    width: 75px;
-    height: 75px;
-  }
-  
-  .hero-item {
-    font-family: var(--font-family);
-    font-weight: 300;
-    font-size: 18px;
-    color: var(--title-color);
-  }
-  
-  .hero-button {
-    border-radius: 10px;
-    width: 288px;
-    height: 60px;
-    background: var(--pale-yellow);
-    font-family: var(--font-family);
-    font-weight: 300;
-    font-size: 18px;
-    color: var(--text-color);
-    border: none;
-    flex-basis: calc((100% / 2) - 32px);
-  }
-  
-  
-  .hero-text {
-    font-family: var(--font-family);
-    font-weight: 300;
-    font-size: 24px;
-    color: var(--text-color);
-  }
-  
-  .hero-delivery {
-    border-radius: 10px;
-    width: 287px;
-    height: 67px;
-    background: var(--text-color);
-    font-family: var(--font-family);
-    font-weight: 300;
-    font-size: 24px;
-    text-transform: uppercase;
-    text-align: center;
-    color: var(--pale-yellow);
-    border: none;
-  }
-  
+
+.hero-subtitle {
+  font-family: var(--font-family);
+  font-weight: 300;
+  font-size: 42px;
+  color: var(--title-color);
+  margin-bottom: 64px;
+}
+
+.hero-img {
+  margin-bottom: 32px;
+  width: 499px;
+height: 522px;
+}
+
+.hero-list {
+  display: flex;
+  gap: 32px;
+}
+
+.selecion-container {
+  width: 499px;
+  height: 629px;
+  margin-top: 56px;
+  margin-right: 32px;
+}
+
+.cake-container{
+  width: 609px;
+height: 522px;
+margin-top: 56px;
+}
+
+.selection-of-cakes {
+  display: flex;
+  gap: 30px;
+}
+
+.cakes-of-hero-button {
+  background-color: var(--text-color);
+  border-radius: 100%;
+  height: 35px;
+  width: 35px;
+}
+
+.cakes-hero-button  {
+  background-color: var(--text-color);
+  border-radius: 100%;
+  height: 35px;
+  width: 35px;
+}
+
+.selection-hero-img {
+  width: 75px;
+  height: 75px;
+}
+
+.cake-item {
+  font-family: var(--font-family);
+  font-weight: 300;
+  font-size: 18px;
+  color: var(--title-color);
+   list-style: disc;
+}
+
+.hero-button {
+  border-radius: 10px;
+  width: 288px;
+  height: 60px;
+  background: var(--pale-yellow);
+  font-family: var(--font-family);
+  font-weight: 300;
+  font-size: 18px;
+  color: var(--text-color);
+  border: none;
+  /* flex-basis: calc((100% / 2) - 32px); */
+  padding-right: 20px;
+}
+
+.hero-button::after {
+content: "";
+background-image: url(../../img/arrow.webp);
+background-repeat: no-repeat;
+}
+
+.hero-button-list{
+display: flex;
+gap: 32px;
+margin-top: 32px;
+flex-wrap: wrap;
+border-bottom: 1px solid #f5eee0;
+padding-bottom: 24px;
+}
+
+.hero-text {
+  font-family: var(--font-family);
+  font-weight: 300;
+  font-size: 24px;
+  color: var(--text-color);
+  margin-right: 222px;
+}
+
+.hero-delivery {
+  border-radius: 10px;
+  width: 287px;
+  height: 67px;
+  background: var(--text-color);
+  font-family: var(--font-family);
+  font-weight: 300;
+  font-size: 24px;
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--pale-yellow);
+  border: none;
+}
+
+.delivery-list{
+  display: flex;
+}
+
+.hero-text-container{
+  padding-top: 48px;
+padding-bottom: 44px;
+}
+
+.hero-delivery-container{
+padding-top: 27px;
+padding-bottom: 27px;
+}
+
+.selection-of-container{
+  padding-left: 38px;
+  padding-right: 38px;
+}
+
+.selection-of-cakes-container{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.of-cakes-container{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}

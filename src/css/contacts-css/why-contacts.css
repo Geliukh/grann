@@ -1,0 +1,71 @@
+.whygrann-title {
+font-family: var(--third-family);
+font-weight: 900;
+font-size: 100px;
+color: #705a66;
+}
+
+.whygrann-text {
+font-family: var(--font-family);
+font-weight: 300;
+font-size: 24px;
+text-align: center;
+color: #705a66;
+}
+
+.whygrann-info {
+font-family: var(--font-family);
+font-weight: 300;
+font-size: 16px;
+text-align: center;
+color: #705a66;
+}
+
+
+.whygrann {
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+background-image: url(../../img/cake.webp);
+background-repeat: no-repeat;
+height: 681px;
+background-position: center;
+}
+
+.whygrann-photo {
+max-width: 100%;
+margin-bottom: 20px;
+}
+
+.whygrann-list {
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+padding: 0;
+list-style: none;
+margin-top: 100px;
+}
+
+.whygrann-item {
+flex: 1 1 300px;
+margin: 10px;
+text-align: left;
+}
+
+.whygrann-item:nth-child(1) {
+width: 50%;
+padding-top: auto;
+}
+
+.whygrann-item:nth-child(2) {
+width: 50%;
+
+order: 1;
+}
+
+.whygrann-item:nth-child(3) {
+width: 50%;
+padding-top: 320px;
+}
+
