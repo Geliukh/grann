@@ -50,7 +50,6 @@
 
 .container {
   width: 1240px;
-  outline: red solid 2px;
   margin: 0px auto;
   /* display: flex; */
 }
