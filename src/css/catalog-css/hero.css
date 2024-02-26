@@ -1,12 +1,4 @@
-@font-face {
-    font-family: "Moniqa Black Display";
-    src: url("https://db.onlinewebfonts.com/t/864309e32eb06a52fd91c0d3e081e0db.eot");
-    src: url("https://db.onlinewebfonts.com/t/864309e32eb06a52fd91c0d3e081e0db.eot?#iefix")format("embedded-opentype"),
-    url("https://db.onlinewebfonts.com/t/864309e32eb06a52fd91c0d3e081e0db.woff2")format("woff2"),
-    url("https://db.onlinewebfonts.com/t/864309e32eb06a52fd91c0d3e081e0db.woff")format("woff"),
-    url("https://db.onlinewebfonts.com/t/864309e32eb06a52fd91c0d3e081e0db.ttf")format("truetype"),
-    url("https://db.onlinewebfonts.com/t/864309e32eb06a52fd91c0d3e081e0db.svg#Moniqa Black Display")format("svg")
-}
+
 
 .hero-information {
   font-family: 'Montserrat';
@@ -82,17 +74,21 @@
   font-weight: 300;
   font-size: 24px;
   color: #705a66;
-  display: inline-flex;
   margin-bottom: 10px;
 }
 
-.hero-subtitle::after {
+/* .hero-subtitle::after {
   content: '';
   display: block;
   width: 26px;
   height: 26px;
-  background-image: url(../img/header-shoping-cart.webp);
+  background-image: url(../../img/header-shoping-cart.webp);
   margin-left: 75px;
+} */
+
+.hero-cart {
+  display: flex;
+  justify-content: space-between;
 }
 
 .hero-item {
