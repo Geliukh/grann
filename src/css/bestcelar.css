@@ -1,10 +1,12 @@
 .besteler {
   display: flex;
+  padding-bottom: 120px;
 }
 
 
 .besteler-container{
   margin-right: 32px;
+  margin-left: auto;
 }
 
 .arrow-next{
@@ -26,7 +28,7 @@
 }
 
 .bestcelar-arrow-container{
-  padding-left: 1055px;
+  margin-left: auto;
 }
 
 .carousel{
@@ -64,6 +66,7 @@
 .bestcelar-element-container{
   align-self: center;
   padding-bottom: 12px;
+  margin-right: auto;
 }
 
 .bestcelar-text{
@@ -102,8 +105,11 @@
   font-size: 24px;
   padding: 19px 80px;
   border-radius: 15px;
-  margin-top: 88px;
   margin-right: auto;
   margin-left: auto;
   display: block;
+}
+
+.button-container{
+  padding-top: 88px;
 }
