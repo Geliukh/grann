@@ -15,9 +15,9 @@
     
   .hero-contacts {
     height: 943px;
-    background-image: url(../../img/hero-background.webp);
+    background-image: url(../../img/hero-background1.webp), url(../../img/hero-background2.webp), url(../../img/hero-background3.webp), url(../../img/hero-background4.webp);
     background-repeat: no-repeat;
-    background-position: 51px 40px;
+    background-position: 51px 40px, 243px 151px, 507px 176px, 892px 163px;
     padding: 40px 0px;
   }
   

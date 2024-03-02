@@ -2,7 +2,6 @@
 .instagram{
     padding-top: 89px;
     padding-bottom: 120px;
-    background-image: url(../img/instagram-background.webp);
     background-repeat: no-repeat;
     background-position: 290px 1098px;
   }
@@ -10,6 +9,11 @@
   .instagram-button-container{
     display: flex;
     justify-content: center;
+    background-image: url(../img/instagram-background1.webp), url(../img/instagram-background2.webp), url(../img/instagram-background3.webp);
+    background-repeat: no-repeat;
+    padding-top: 62px;
+    background-size: 76px 90px, 23px 9px, 26px 24px;
+    background-position: 192px 16px, 949px 59px, 943px 28px;
   }
   
   .instagram-list{
@@ -17,7 +21,6 @@
     gap: 30px;
     flex-wrap: wrap;
     margin-top: 64px;
-    margin-bottom: 62px;
   }
   
   .instagram-item{

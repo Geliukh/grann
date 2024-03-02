@@ -44,13 +44,14 @@
 .why-pict-delivery {
   background-image: url(../img/fon-delivery.webp);
   background-size: 1440px 2242px;
-  background-position: center -16px;
+  background-position: center 0px;
   background-repeat: no-repeat;
 }
 
 .container {
-  width: 1240px;
+  width: 1270px;
   margin: 0px auto;
+  padding: 0px 15px;
   /* display: flex; */
 }
 
