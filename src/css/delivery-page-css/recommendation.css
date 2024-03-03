@@ -1,49 +1,48 @@
-
 .recommendations {
-    margin-top: 16px;
-    margin-bottom: 120px;
-  }
-  
-  .recommendations-title {
-    font-family: var(--font-family);
-    font-weight: 300;
-    font-size: 42px;
-    color: var(--text-color);
-  }
-  
-  .recommendations-list {
-    display: flex;
-    gap: 30px;
-  }
-  
-  .recommendations-img {
-    width: 393px;
-    height: 393px;
-  }
-  
-  .recommendations-subtitle {
-    margin-top: 20px;
-    margin-bottom: 10px;
-    font-family: var(--font-family);
-    font-weight: 300;
-    font-size: 24px;
-    color: var(--text-color);
-    display: inline-flex;
-  }
-  
-  .recommendations-subtitle::after {
-    content: '';
-    display: block;
-    width: 26px;
-    height: 26px;
-    background-image: url(../img/header-shoping-cart.webp);
-  }
-  
-  .recommendations-text {
-    font-family: var(--font-family);
-    font-weight: 300;
-    font-size: 18px;
-    text-align: left;
-    color: var(--text-color);
-  }
-  
+  margin-top: 16px;
+  margin-bottom: 120px;
+}
+
+.recommendations-title {
+  font-family: var(--font-family);
+  font-weight: 300;
+  font-size: 42px;
+  color: var(--text-color);
+  margin-bottom: 40px;
+}
+
+.recommendations-list {
+  display: flex;
+  gap: 30px;
+}
+
+.recommendations-img {
+  width: 393px;
+  height: 393px;
+}
+
+.recommendations-subtitle {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-family: var(--font-family);
+  font-weight: 300;
+  font-size: 24px;
+  color: var(--text-color);
+  display: inline-flex;
+}
+
+.recommendations-subtitle::after {
+  content: '';
+  display: block;
+  width: 26px;
+  height: 26px;
+  background-image: url(../img/header-shoping-cart.webp);
+}
+
+.recommendations-text {
+  font-family: var(--font-family);
+  font-weight: 300;
+  font-size: 18px;
+  text-align: left;
+  color: var(--text-color);
+}
