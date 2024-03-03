@@ -26,13 +26,21 @@
 
 .delivery-list {
     display: flex;
+    column-gap: 83px;
+    justify-content: center;
+    background-image: url(../img/line2.webp), url(../img/line2.webp);
+    background-repeat: no-repeat;
+    background-position: 444px 64px, 815px 64px;
+}
+
+.delivery-item{
+    width: 287px;
 }
 
 .delivery-photo {
-    padding-left: auto;
-    padding-right: auto;
     padding-top: 84px;
     padding-bottom: 39px;
+    margin: 0px auto;
 }
 
 .delivery {
