@@ -43,6 +43,11 @@
   margin-top: 24px;
 }
 
+.hero-img-cart {
+  width: 30px;
+  height: 30px;
+}
+
 .hero-button {
   font-family: 'Montserrat';
   font-weight: 300;
@@ -75,6 +80,18 @@
   font-size: 24px;
   color: #705a66;
   margin-bottom: 10px;
+}
+
+.hero-fistaska {
+  max-width: 194px;
+}
+
+.hero-gorix {
+  max-width: 203px;
+}
+
+.hero-sub-title {
+  max-width: 246px;
 }
 
 /* .hero-subtitle::after {

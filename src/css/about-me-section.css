@@ -1,12 +1,19 @@
 .about-name {
-  /* padding-top: 78px; */
   margin-bottom: 40px;
   margin-left: 30px;
 }
 
 .about {
-  margin-top: 120px;
-  margin-bottom: 120px;
+ padding-top: 120px;
+ padding-bottom: 120px;
+}
+
+.about-about-me-container {
+  display: flex;
+}
+
+.container-about-text {
+  padding-top: 78px;
 }
 
 .about-subtitle {
