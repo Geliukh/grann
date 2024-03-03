@@ -1,16 +1,7 @@
-@font-face {
-    font-family: "Moniqa Black Display";
-    src: url("https://db.onlinewebfonts.com/t/864309e32eb06a52fd91c0d3e081e0db.eot");
-    src: url("https://db.onlinewebfonts.com/t/864309e32eb06a52fd91c0d3e081e0db.eot?#iefix")format("embedded-opentype"),
-    url("https://db.onlinewebfonts.com/t/864309e32eb06a52fd91c0d3e081e0db.woff2")format("woff2"),
-    url("https://db.onlinewebfonts.com/t/864309e32eb06a52fd91c0d3e081e0db.woff")format("woff"),
-    url("https://db.onlinewebfonts.com/t/864309e32eb06a52fd91c0d3e081e0db.ttf")format("truetype"),
-    url("https://db.onlinewebfonts.com/t/864309e32eb06a52fd91c0d3e081e0db.svg#Moniqa Black Display")format("svg")
-}
+
 
 .why-about-me {
-    margin-bottom: 120px;
-    margin-top: 120px;
+    padding-bottom: 120px;
 }
 
 .why-title {
