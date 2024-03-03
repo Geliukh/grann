@@ -4,13 +4,8 @@
 
 .delivery-container {
   display: flex;
+  padding-top: 56px;
 }
-
-/* .hero:last-child {
-    justify-content: flex-end;
-  } */
-
-
 
 .hero-title1 {
   font-family: var(--font-family);
@@ -26,10 +21,6 @@
   color: var(--title-color);
 }
 
-/* .hero-img{
-      float: left;
-  } */
-
 .hero-subtitle {
   font-family: var(--font-family);
   font-weight: 300;
@@ -41,7 +32,7 @@
 .hero-img {
   margin-bottom: 32px;
   width: 499px;
-height: 522px;
+  height: 522px;
 }
 
 .hero-list {
@@ -52,14 +43,12 @@ height: 522px;
 .selecion-container {
   width: 499px;
   height: 629px;
-  margin-top: 56px;
   margin-right: 32px;
 }
 
-.cake-container{
+.cake-container {
   width: 609px;
-height: 522px;
-margin-top: 56px;
+  height: 522px;
 }
 
 .selection-of-cakes {
@@ -74,7 +63,7 @@ margin-top: 56px;
   width: 35px;
 }
 
-.cakes-hero-button  {
+.cakes-hero-button {
   background-color: var(--text-color);
   border-radius: 100%;
   height: 35px;
@@ -91,7 +80,11 @@ margin-top: 56px;
   font-weight: 300;
   font-size: 18px;
   color: var(--title-color);
-   list-style: disc;
+  list-style: disc;  
+}
+
+.hero-selection-list{
+  padding-left: 30px;
 }
 
 .hero-button {
@@ -104,23 +97,24 @@ margin-top: 56px;
   font-size: 18px;
   color: var(--text-color);
   border: none;
-  /* flex-basis: calc((100% / 2) - 32px); */
-  padding-right: 20px;
+  display: flex;
+  padding-left: 20px;
+  padding-top: 19px;
+  justify-content: space-between;
 }
 
-.hero-button::after {
-content: "";
-background-image: url(../../img/arrow.webp);
-background-repeat: no-repeat;
+.hero-arow{
+  background: none;
+  border: none;
 }
 
-.hero-button-list{
-display: flex;
-gap: 32px;
-margin-top: 32px;
-flex-wrap: wrap;
-border-bottom: 1px solid #f5eee0;
-padding-bottom: 24px;
+.hero-button-list {
+  display: flex;
+  gap: 32px;
+  margin-top: 32px;
+  flex-wrap: wrap;
+  border-bottom: 1px solid #f5eee0;
+  padding-bottom: 24px;
 }
 
 .hero-text {
@@ -145,31 +139,31 @@ padding-bottom: 24px;
   border: none;
 }
 
-.delivery-list{
+.delivery-list {
   display: flex;
 }
 
-.hero-text-container{
+.hero-text-container {
   padding-top: 48px;
-padding-bottom: 44px;
+  padding-bottom: 44px;
 }
 
-.hero-delivery-container{
-padding-top: 27px;
-padding-bottom: 27px;
+.hero-delivery-container {
+  padding-top: 27px;
+  padding-bottom: 27px;
 }
 
-.selection-of-container{
+.selection-of-container {
   padding-left: 38px;
   padding-right: 38px;
 }
 
-.selection-of-cakes-container{
+.selection-of-cakes-container {
   padding-top: 20px;
   padding-bottom: 20px;
 }
 
-.of-cakes-container{
+.of-cakes-container {
   padding-top: 20px;
   padding-bottom: 20px;
 }
